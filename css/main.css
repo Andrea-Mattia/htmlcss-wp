@@ -41,7 +41,30 @@ header {
 
 header .brand img {
     width: 165px;
+    display: inline-block;
 }
+
+header .links {
+    height: 80px;
+    width: 50%;
+    padding-top: 28px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.links a {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header a {
+    color: gray;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: dodgerblue;
+} 
 
 .main-menu {
     margin-top: 40px;
