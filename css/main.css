@@ -1,0 +1,115 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #858585;
+}
+
+h1,
+h2,
+h4,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: black;
+}
+
+
+/* UTILITY */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+header {
+    margin-bottom: 40px;
+}
+
+.main-menu {
+    margin-top: 40px;
+}
+
+.main-menu li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+.main-menu li a:hover {
+    color: rgb(92, 82, 82);
+}
+
+header .brand img {
+    width: 165px;
+}
+
+
+/* MAIN CONTENT */
+.hero {
+    height: 500px;
+    background: yellow;
+}
+
+
+.leadership {
+    margin-bottom: 20px;
+    /* background: dodgerblue; */
+}
+
+.leadership .heading {
+    /* height: 60px;
+    background: lightblue; */
+    margin-bottom: 40px;
+}
+
+.leadership h2 {
+    font-size: 40px;
+}
+
+.leadership .columns .col {
+    float: left;
+    width: 20%;
+    height: 600px;
+    margin-bottom: 20px;
+    background: lightblue;
+}
+
+.leadership .columns .col:nth-child(2) {
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: black;
+}
+
+.heart {
+    color: red;
+}
