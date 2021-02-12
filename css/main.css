@@ -44,6 +44,7 @@ header .brand img {
     display: inline-block;
 }
 
+/* LINK STYLE */
 header .links {
     height: 80px;
     width: 50%;
@@ -66,6 +67,7 @@ header a {
     color: dodgerblue;
 } 
 
+/* MAIN MENU */
 .main-menu {
     margin-top: 40px;
 }
