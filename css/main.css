@@ -39,6 +39,10 @@ header {
     margin-bottom: 40px;
 }
 
+header .brand img {
+    width: 165px;
+}
+
 .main-menu {
     margin-top: 40px;
 }
@@ -63,11 +67,6 @@ header {
     color: rgb(92, 82, 82);
 }
 
-header .brand img {
-    width: 165px;
-}
-
-
 /* MAIN CONTENT */
 .hero {
     height: 500px;
@@ -77,12 +76,9 @@ header .brand img {
 
 .leadership {
     margin-bottom: 20px;
-    /* background: dodgerblue; */
 }
 
 .leadership .heading {
-    /* height: 60px;
-    background: lightblue; */
     margin-bottom: 40px;
 }
 
